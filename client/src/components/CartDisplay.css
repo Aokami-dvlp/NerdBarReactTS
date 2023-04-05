@@ -1,0 +1,57 @@
+/* width */
+.cart-body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .cart-body::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .cart-body::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  .cart-body::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.cart{
+    border: 1px solid black;
+    height: 100vh;
+    width: 25vw;
+    background-color: white;
+}
+
+.cart-body{
+    overflow-y: scroll;
+    height: 89%;
+}
+
+.cart-container{
+    position:fixed;
+    top : 0;
+    right: -25vw;
+    width: 25vw;
+    transition: 0.5s ease-in-out;
+}
+
+.cart-footer{
+    display: flex;
+    min-height: 40px;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: #f1f1f1;
+    border-top: 1px solid black;
+}
+
+.cart-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid black;
+}

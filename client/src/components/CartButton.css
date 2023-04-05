@@ -1,0 +1,18 @@
+.drink-counter {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    top: -10px;
+    right: -10px;
+    background-color: #26c44e;
+    border-radius: 20px;
+    padding: 2px 12px;
+}
+
+.cart-button{
+    position: fixed;
+    bottom:0;
+    right: 0;
+    margin:60px 30px;
+}
